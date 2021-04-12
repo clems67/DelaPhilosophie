@@ -1,0 +1,99 @@
+@import url("mobile.css");
+@import url("navbar.css");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Kumbh Sans', sans-serif;
+  scroll-behavior: smooth;
+}
+
+
+#main{
+	background-color: rgb(212, 216, 157);
+	height: 100%;
+	width: 100%;
+}
+
+/*
+font-size: 20px (- +)
+line-height : 100% (3 ligne à faire manuelement)
+max-width: 100px (flèche en unicode)
+backgroud: (couleur)
+*/
+
+
+.introduction{
+	top: 80px;
+	width: 100%;
+	max-width: 1000px;
+	/*padding-left: 5%;
+	padding-right: 5%;*/
+	padding-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	height: auto;
+	text-align:justify;
+}
+
+#liste_auteurs{
+  text-align: center;
+}
+
+.auteur{
+  margin: 10px;
+}
+
+#texte{
+	top: 80px;
+	width: 100%;
+	max-width: 1000px;
+	/*padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 40px;*/
+  padding-left: 10px;
+  padding-right: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	height: auto;
+	text-align:justify;
+}
+
+
+.titre{
+	width: 100%;
+	max-width: 1000px;
+	padding: 10px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+	height: auto;
+}
+
+#sources{
+	width: 100%;
+	max-width: 1000px;
+	/*padding-left: 5%;
+	padding-right: 5%;*/
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	height: auto;
+  padding: 10px;
+}
+
+
+
+/*div#main {
+	display: flex;
+	align-items: stretch;
+}
