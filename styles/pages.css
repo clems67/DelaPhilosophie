@@ -1,0 +1,10 @@
+.titre{
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.sous-titre{
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 1em;
+}

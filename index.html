@@ -10,10 +10,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="/styles/styles.css">
 	<title>De la Philosophie</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+	<script> 
+	$(function(){
+		$("#navbar").load("navbar.html"); 
+	});
+	</script> 
 </head>
 <body>
 
-	<object data="navbar.html"></object>
+	<div id=navbar></div>
+	<!--<object data="navbar.html"></object>-->
 
 	<div id="main">
 		<p class="introduction">De la Philosophie vout permet de découvrir 57 philosphes qui ont marqués l'histoire de la pensé. De Platon à Foucault, en passant par Descartes, Kant ou encore Nietzsche, vous pourrez vous familiariser avec la pensée des grands philosphes. Les meilleurs informations ont été choisies dans livres et sites internet pour rassembler le meilleur de chaque philosophe au même endroit, permettant ainsi une plus grande facilité de consultation. </p>
@@ -22,8 +29,8 @@
 		<br> <br> <br>
 		<div id=liste_auteurs>
 			<strong>Liste des auteurs</strong> <br> <br> 
-			<div class="auteur"><a href="philosophes/platon.php">Platon (428 av.J.-C. - 348 av. J.-C.) </a></div> <br> 
-			<div class="auteur"><a href="philosophes/aristote.php">Aristote (348 av. J.-C. - 322 av. J.-C.) </a></div> <br> 
+			<div class="auteur"><a href="philosophes/platon.html">Platon (428 av.J.-C. - 348 av. J.-C.) </a></div> <br> 
+			<div class="auteur"><a href="philosophes/aristote.html">Aristote (348 av. J.-C. - 322 av. J.-C.) </a></div> <br> 
 		
 		</div>
 		<br> <br>
